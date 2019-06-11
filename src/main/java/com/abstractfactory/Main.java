@@ -30,7 +30,7 @@ public class Main {
             return new NikeClothingFactory();
         }
 
-        if(Brand.HURLEY.getName().equalsIgnoreCase(brandName)) {
+        if (Brand.HURLEY.getName().equalsIgnoreCase(brandName)) {
             return new HurleyClothingFactory();
         }
 
